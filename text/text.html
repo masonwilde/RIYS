@@ -1,17 +1,17 @@
 <!-- Copyright (c) 2024 Mason Wilde
- 
-This file is part of Run It Yourself Software (RIYS).
 
-RIYS is free software: you can redistribute it and/or modify it under the terms
-of the GNU General Public License as published by the Free Software Foundation,
-either version 3 of the License, or (at your option) any later version.
+  This file is part of Run It Yourself Software (RIYS).
 
-RIYS is distributed in the hope that it will be useful, but WITHOUT ANY 
-WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-PARTICULAR PURPOSE. See the GNU General Public License for more details.
+  RIYS is free software: you can redistribute it and/or modify it under the terms
+  of the GNU General Public License as published by the Free Software Foundation,
+  either version 3 of the License, or (at your option) any later version.
 
-You should have received a copy of the GNU General Public License along with
-Foobar. If not, see <https://www.gnu.org/licenses/>. 
+  RIYS is distributed in the hope that it will be useful, but WITHOUT ANY 
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+  PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License along with
+  Foobar. If not, see <https://www.gnu.org/licenses/>. 
 -->
 
 <!-- Text tools for RIYS -->
@@ -24,8 +24,19 @@ Foobar. If not, see <https://www.gnu.org/licenses/>.
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Text Tools</title>
     <link rel="stylesheet" href="style.css">
+    <script src="text.js"></script>
   </head>
   <body>
     <h1>Text Tools</h1>
-    <p>Coming soon!</p>
+    <p>Under Construction</p>
+    <input type="text" id="input" placeholder="Enter text here">
+    <button onclick="execute()">Execute</button>
+    <div id="text-conversion">
+      <p>Output:</p>
+      <p>Binary:&nbsp;<span id="binary"></span></p>
+      <p>Octal:&nbsp;<span id="octal"></span></p>
+      <p>Decimal:&nbsp;<span id="decimal"></span></p>
+      <p>Hexadecimal:&nbsp;<span id="hexadecimal"></span></p>
+      <p>Base64:&nbsp;<span id="base64"></span></p>
+    </div>
   </body>
